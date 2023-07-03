@@ -1,0 +1,34 @@
+body
+{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section1
+{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    justify-content: space-between;
+
+}
+.a
+{
+    border-spacing: 20px;
+    font-weight: bold;
+    color: darkblue;
+    font-weight: 250px;
+    border-style: solid;
+    border-color: black;
+    font-size: 25px;
+}
+.b
+{
+    height: 500px;
+    width: 500px;
+}
+.c 
+{
+    color: blue;
+    padding: 35px;
+    font-size: 25px;
+}
