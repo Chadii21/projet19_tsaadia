@@ -20,6 +20,7 @@ body
     border-style: solid;
     border-color: black;
     font-size: 25px;
+    content: normal;
 }
 .b
 {
@@ -31,4 +32,21 @@ body
     color: blue;
     padding: 35px;
     font-size: 25px;
+}
+.d
+{
+ padding: 20px;
+ display: flex;
+}
+.e
+{
+  border: none;  
+}
+.section2
+{
+    display: flex;
+}
+.section3
+{
+    display: flex;
 }
