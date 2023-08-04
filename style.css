@@ -15,6 +15,10 @@ body {
 .all {
     padding-left: 50px;
 }
+.section1 {
+    height: 100%;
+    display: flex;
+}
 .container {
     width: 400px;
     background: #fff;
@@ -22,16 +26,19 @@ body {
     text-align: center;
     padding: 50px 35px 10px 35px;
 }
-.section1,
-.section2,
-.section3 {
+.all {
     display: flex;
-   
+}
+.all2 {
+    display: none;
+}
+.all3 {
+   display: none;
 }
 .photo1,
 .photo2,
 .photo3 {
-    height: 1000px;
+    height: 800px;
     width: 600px;
 }
 
