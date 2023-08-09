@@ -9,10 +9,10 @@ body {
      /* display: flex;     */
     align-items: column;
     justify-content: center;
-    min-height: ;
+    
     background-color: pink;
 }
-.all {
+.page1 {
     padding-left: 50px;
 }
 .section1 {
@@ -26,11 +26,24 @@ body {
     text-align: center;
     padding: 10px 5px 2px 5px;
 }
-.all {
-    display: flex;
-    display: none;
-} 
-.page2 {
+.container2 {
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 5px 2px 5px;
+}
+.container3 {
+    width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 5px 2px 5px;
+}
+/* .page1 {
+    display: block;
+}  */
+.all2 {
     display: none;
 }
 .all3 {
@@ -128,7 +141,7 @@ form .page .btns button .next {
     display: flex;
     margin: 40px 0;
 }
-.container .progress-bar .step {
+/* .container .progress-bar .step {
     text-align: center;
     width: 100%;
 }
@@ -167,11 +180,6 @@ form .page .btns button .next {
     transform-origin: left;
     animation: animate 0.3s linear forwards;
 }
-@keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
-}
 .progress-bar .step span {
     font-weight: 500;
     font-size: 17px;
@@ -185,7 +193,7 @@ form .page .btns button .next {
     left: 50%;
     top: 70%;
     font-size: 17px;
-}
+} */
 
 .a {
     border-spacing: 20px;
@@ -224,4 +232,62 @@ form .page .btns button .next {
 
 .section3 {
     display: flex;
+}
+
+
+@media  screen and (min-width:1200px) {
+    .all {
+        flex-direction: column;
+        
+    }
+    .all2 {
+        flex-direction: column;
+        
+    }
+    .all3 {
+        flex-direction: column;
+        
+    }
+}
+@media  screen and (min-width:900px) {
+    .all {
+        flex-direction: column;
+        
+    }
+    .all2 {
+        flex-direction: column;
+        
+    }
+    .all3 {
+        flex-direction: column;
+        
+    }
+}
+@media  screen and (min-width:600px) {
+    .all {
+        flex-direction: column;
+        
+    }
+    .all2 {
+        flex-direction: column;
+        
+    }
+    .all3 {
+        flex-direction: column;
+        
+    }
+}
+@media  screen and (min-width:300px) {
+    .all {
+        flex-direction: column;
+        
+    }
+    .all2 {
+        flex-direction: column;
+        
+    }
+    .all3 {
+        flex-direction: column;
+        
+    }
 }
